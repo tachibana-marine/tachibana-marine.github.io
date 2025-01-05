@@ -9,3 +9,4 @@
 - ベクトルは便利
 - wait_framesはawaitしないといけない
 - ビルドはコマンドラインからもできる CI/CDとかに便利
+- マスクはこれ CanvasItem.ClipChildrenMode
