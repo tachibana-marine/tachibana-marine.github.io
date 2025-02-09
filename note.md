@@ -9,4 +9,10 @@
 - ベクトルは便利
 - wait_framesはawaitしないといけない
 - ビルドはコマンドラインからもできる CI/CDとかに便利
-- マスクはこれ CanvasItem.ClipChildrenMode
+- マスキングしたいときはこれを使うといいかも　CanvasItem.ClipChildrenMode
+- When instantiating a script or a standalone scene, nodes are not added to the SceneTree upon creation, so no _enter_tree() callbacks trigger.
+  - 要するに、instantiateとかnewしたときの挙動は、シーン＋スクリプトとそれ以外で異なる
+    - シーン＋スクリプトのときは直にツリーに入る＝_enter_treeと_readyが呼ばれる
+    - それ以外のときは、initだけが呼ばれる
+  - 参考　https://docs.godotengine.org/en/stable/tutorials/best_practices/godot_notifications.html#ready-vs-enter-tree-vs-notification-parented
+    - 上の説明が正しいのかは要検討　よく理解してない
