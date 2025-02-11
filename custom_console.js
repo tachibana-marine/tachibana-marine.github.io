@@ -108,11 +108,7 @@ function stack_trace_format(stackTrace) {
             //==========================================================
             //do whatever you want with the stack trace and message here
             //==========================================================
-            var div = document.createElement('div')
-            div.style.cssTxt = 'z-index:1000'
-            div.innerHTML = '<p>' + message + '</p>'
-            document.body.appendChild()
-
+            alert(message)
             //==========================================================
             //make sure we still call the original method
             original.call(console, message)
