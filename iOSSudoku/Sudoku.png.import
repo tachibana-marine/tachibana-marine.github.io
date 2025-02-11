@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://do8bbrbxddh3"
-path="res://.godot/imported/Sudoku.png-56ec7455e463c4458570766ca09dfff0.ctex"
+uid="uid://daxhkdi2e4dmp"
+path="res://.godot/imported/Sudoku.png-50b9b071aaa24e675725c6fe074a1f56.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://bin/Sudoku.png"
-dest_files=["res://.godot/imported/Sudoku.png-56ec7455e463c4458570766ca09dfff0.ctex"]
+source_file="res://bin/ios/Sudoku.png"
+dest_files=["res://.godot/imported/Sudoku.png-50b9b071aaa24e675725c6fe074a1f56.ctex"]
 
 [params]
 
