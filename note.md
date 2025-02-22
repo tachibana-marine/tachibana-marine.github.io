@@ -16,3 +16,9 @@
     - それ以外のときは、initだけが呼ばれる
   - 参考　https://docs.godotengine.org/en/stable/tutorials/best_practices/godot_notifications.html#ready-vs-enter-tree-vs-notification-parented
     - 上の説明が正しいのかは要検討　よく理解してない
+- マスクはこれ CanvasItem.ClipChildrenMode
+- object.getで複雑なプロパティを持ってきやすくなる
+  - プロパティ名はGodotエディター上でプロパティ右クリックしてCopy Property Path
+    - theme_override_font_sizes/font_sizeとか
+- GutのVSCプラグイン、初回インストール時にショートカット設定されないっけ？
+  - よくわからんが、ノートの方には手動でショートカットを設定した
