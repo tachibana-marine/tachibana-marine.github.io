@@ -1,0 +1,7 @@
+.game {
+    aspect-ratio:667/375;
+    width:100%;
+    max-width:1334px;
+    margin:auto;
+    display:block;
+}
